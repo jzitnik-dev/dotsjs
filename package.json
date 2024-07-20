@@ -1,5 +1,5 @@
 {
-  "name": "dotsjs",
+  "name": "@jzitnik/dotsjs",
   "description": "Dots.js is simple 'programming language'. The entire language uses only 2 characters.",
   "repository": "https://github.com/JZITNIK-github/dotsjs",
   "bin": {
