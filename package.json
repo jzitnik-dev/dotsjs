@@ -1,0 +1,21 @@
+{
+  "name": "dotsjs",
+  "description": "Dots.js is simple 'programming language'. The entire language uses only 2 characters.",
+  "bin": {
+    "dotsjs": "./src/index.js"
+  },
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "ncc build src/compiler.js -m -o dist"
+  },
+  "keywords": [],
+  "author": "Jakub Žitník",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
