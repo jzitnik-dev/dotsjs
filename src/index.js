@@ -35,4 +35,30 @@ if (command == "compile") {
     flag: "r",
   });
   DotsCompiler.run(filedata);
+} else if (command == "help") {
+  console.log(`
+Usage: dotsjs [command] <filePath>
+
+Commands:
+  compile    Compiles a Dots project file.
+             Usage: dotsjs compile <filePath>
+             Example: dotsjs compile ./src/project.dots
+
+  run        Runs a compiled Dots project file.
+             Usage: dotsjs run <filePath>
+             Example: dotsjs run ./src/project.dots
+
+  help       Displays this help message.
+
+Examples:
+  Compile a Dots project file:
+    dotsjs compile /path/to/project.dots
+
+  Run a compiled Dots file:
+    dotsjs run /path/to/project.dots
+`);
+} else {
+  console.log(`Invalid command: ${command}
+
+Run 'dotsjs help' for help`)
 }
