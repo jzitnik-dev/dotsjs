@@ -5,7 +5,7 @@ Dots.js is simple "programming language". The entire language uses only 2 charac
 ## Install package
 
 ```bash
-npm init -g dotsjs
+npm init -g @jzitnik/dotsjs
 ```
 
 ## Example hello world in dotsjs
